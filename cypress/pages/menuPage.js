@@ -18,4 +18,4 @@ class menudPage {
     }
 }
 
-export default DashboardPage
+export default menudPage

@@ -30,7 +30,7 @@ describe('Orage HRM tests', () => {
     }
   }
 
-  it('User Info Update - Success', () => {
+  it.only('User Info Update - Success', () => {
     cy.visit('/auth/login')
     cy.get(selectorList.usernameField).type(userData.userSuccess.username)
     cy.get(selectorList.passwordField).type(userData.userSuccess.password)
